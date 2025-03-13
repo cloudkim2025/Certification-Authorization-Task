@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff3cc9fd-f0a7-4511-8218-dc2b4b5cf00c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/directory_structure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/Basicboard2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/config/filter/TokenAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/config/jwt/JwtProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/config/jwt/TokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/config/security/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/controller/BoardApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/controller/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/controller/ErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/controller/MemberApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/controller/TokenApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/dto/BoardDeleteRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/dto/BoardDetailResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/dto/BoardListResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/dto/SignInRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/dto/SignInResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/dto/SignUpRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/dto/SignUpResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/dto/UserInfoResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/mapper/BoardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/model/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/model/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/model/Paging.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/service/BoardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/service/TokenApiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/service/UserDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/type/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/java/com/example/basicboard2/util/CookieUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/mappers/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/mappers/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/css/board.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/css/boardDetail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/css/boardUpdate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/css/boardWrite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/css/signIn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/css/signUp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/js/boardDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/js/boardList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/js/boardUpdate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/js/boardWrite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/js/signIn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/static/js/signUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/templates/access-denied.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/templates/board-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/templates/board-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/templates/board-update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/templates/board-write.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/templates/sign-in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/main/resources/templates/sign-up.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/test/java/com/example/basicboard2/Basicboard2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/test/java/com/example/basicboard2/config/SecretKeyGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/basicboard2/src/test/java/com/example/basicboard2/config/TokenProviderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/boardWriteList/src/main/resources/css/board.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/boardWriteList/src/main/resources/css/boardWrite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/boardWriteList/src/main/resources/js/boardList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/boardWriteList/src/main/resources/js/boardWrite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/boardWriteList/src/main/resources/mappers/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/boardWriteList/src/main/resources/templates/board-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/boardWriteList/src/main/resources/templates/board-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/CookieBoard/boardWriteList/src/main/resources/templates/board-write.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Task/src/main/java/com/example/task/config/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Task/src/main/java/com/example/task/controller/SessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Task/src/main/java/com/example/task/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Task/src/main/java/com/example/task/filter/LoggingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Task/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Task/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Task/src/main/resources/templates/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/src/main/java/com/example/weather/WeatherApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/src/main/java/com/example/weather/client/WeatherClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/src/main/java/com/example/weather/controller/WeatherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/src/main/java/com/example/weather/dto/WeatherRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/src/main/java/com/example/weather/dto/WeatherResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/src/main/resources/static/css/weatherAPI.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/src/main/resources/templates/weatherAPI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weather/src/test/java/com/example/weather/WeatherApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weathertaskpractice/src/main/java/com/example/weathertaskpractice/client/WeatherClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weathertaskpractice/src/main/java/com/example/weathertaskpractice/controller/WeatherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weathertaskpractice/src/main/java/com/example/weathertaskpractice/dto/WeatherRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weathertaskpractice/src/main/java/com/example/weathertaskpractice/dto/WeatherResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weathertaskpractice/src/main/resources/static/weather.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/WeatherTask/weathertaskpractice/src/main/resources/templates/weather.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/signupexample/src/main/java/com/example/signupexample/controller/SessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/signupexample/src/main/java/com/example/signupexample/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/signupexample/src/main/resources/templates/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/user-authentication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/user-authentication/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/user-authentication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/user-authentication/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/user-authentication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/src/main/java/com/example/examplespringboot/Controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/src/main/java/com/example/examplespringboot/ExamplespringbootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/examplespringboot/src/test/java/com/example/examplespringboot/ExamplespringbootApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/.idea/fegin-example.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/FeignClintApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/client/ExampleClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/client/WeatherClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/controller/ExampleApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/controller/WeatherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/dto/DataRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/dto/DataResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/dto/weather/Body.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/dto/weather/Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/dto/weather/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/dto/weather/Items.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/dto/weather/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/dto/weather/WeatherResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/service/ExampleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/java/com/example/feignclint/service/WeatherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-clint/src/test/java/com/example/feignclint/FeignClintApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/src/main/java/com/example/feigndate/Controller/DataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/src/main/java/com/example/feigndate/FeignDateApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/src/main/java/com/example/feigndate/dto/DataRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/src/main/java/com/example/feigndate/dto/DataResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/fegin-example/feign-date/src/test/java/com/example/feigndate/FeignDateApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/BasicBordV1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/config/security/CustomAuthenticationFailureHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/config/security/CustomAuthenticationSuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/config/security/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/controller/MemberApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/dto/SignInRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/dto/SignInResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/dto/SignUpRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/dto/SignUpResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/model/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/java/com/example/basicbordv1/service/UserDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/resources/mappers/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/resources/static/css/signIn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/resources/static/css/signUp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/resources/static/js/signIn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/resources/static/js/signUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/resources/templates/sign-in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/main/resources/templates/sign-up.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/basic-board-v1/basic-bord-v1/src/test/java/com/example/basicbordv1/BasicBordV1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/java/com/example/essentials/EssentialsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/java/com/example/essentials/config/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/java/com/example/essentials/controller/CookieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/java/com/example/essentials/controller/FilterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/java/com/example/essentials/controller/SessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/java/com/example/essentials/filter/LoggingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/resources/templates/result-cookie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/main/resources/templates/set-cookie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/essentials/src/test/java/com/example/essentials/EssentialsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/TokenexampleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/config/filter/TokenAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/config/security/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/controller/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/controller/MemberApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/dto/SignInRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/dto/SignInResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/dto/SignUpRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/dto/SignUpResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/jwt/JwtProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/jwt/TokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/model/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/service/UserDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/type/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/java/com/example/tokenexample/util/CookieUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/mappers/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/static/css/board.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/static/css/signIn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/static/css/signUp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/static/js/boardList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/static/js/signIn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/static/js/signUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/templates/boardList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/templates/signIn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/main/resources/templates/signUp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/test/java/com/example/tokenexample/TokenexampleApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/test/java/com/example/tokenexample/config/SecretKeyGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot/tokenexample/src/test/java/com/example/tokenexample/jwt/TokenProviderTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2uFI1MW3v2g3mhF2iWCj6mnv3EW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hi-pc-999/Desktop/Task&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff3cc9fd-f0a7-4511-8218-dc2b4b5cf00c" name="Changes" comment="" />
+      <created>1741837679897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741837679897</updated>
+      <workItem from="1741837681002" duration="200000" />
+      <workItem from="1741837892127" duration="95000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
