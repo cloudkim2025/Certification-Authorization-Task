@@ -21,8 +21,8 @@ import java.io.IOException;
  * - 유효한 토큰이면 인증(Authentication) 객체를 SecurityContext에 저장
  */
 @Slf4j
-@Component // Spring의 Bean으로 등록 (자동 관리)
-@RequiredArgsConstructor // final 필드를 포함한 생성자를 자동 생성
+@Component
+@RequiredArgsConstructor
 public class TokenAuthenticationFilter extends OncePerRequestFilter {
 
     private final TokenProvider tokenProvider; // JWT 토큰을 관리하는 Provider
@@ -39,46 +39,54 @@ public class TokenAuthenticationFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
             throws ServletException, IOException {
 
-        // 현재 요청의 URI(경로)를 가져옴
-        // 예를 들어, 사용자가 "/api/users"에 접근하면 requestURI 값은 "/api/users"가 됨
         String requestURI = request.getRequestURI();
-
-        // 요청된 URI를 로그에 출력하여 추적 가능하게 함
         log.info("Request URI: {}", requestURI);
 
-        // 요청 URI가 "/refresh-token"인지 확인 (JWT 토큰을 갱신하는 API 엔드포인트)
+        // ✅ "/refresh-token" 요청은 필터를 적용하지 않음
         if ("/refresh-token".equals(requestURI)) {
-
-            // "/refresh-token" 요청이 들어온 경우, 필터를 적용하지 않고 다음 필터 또는 컨트롤러로 바로 전달
             filterChain.doFilter(request, response);
-
-            // 이후의 필터 로직을 수행하지 않고 메서드 실행 종료
             return;
         }
 
-        // (추가적인 필터링 로직이 여기에 들어갈 수 있음)
-        // }
-
-
-    // 1️⃣ 요청 헤더에서 JWT 토큰 추출
+        // ✅ 1️⃣ 요청 헤더에서 JWT 토큰 추출
         String token = resolveToken(request);
 
-        // 2️⃣ 토큰이 유효한 경우, SecurityContext에 인증 정보 저장
-        if (token != null && tokenProvider.validToken(token) == 1) {
+        if (token == null || token.isEmpty()) {
+            log.warn("Authorization 헤더가 없음 또는 비어 있음");
+            filterChain.doFilter(request, response);
+            return;
+        }
+
+        // ✅ 2️⃣ 토큰이 JWT 형식인지 확인
+        if (!token.contains(".")) {
+            log.error("유효하지 않은 JWT 형식: {}", token);
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid JWT format");
+            return;
+        }
+
+        // ✅ 3️⃣ 토큰이 유효한 경우, SecurityContext에 인증 정보 저장
+        int tokenValidation = tokenProvider.validToken(token);
+
+        if (tokenValidation == 1) { // 정상 토큰
             Authentication authentication = tokenProvider.getAuthentication(token);
             SecurityContextHolder.getContext().setAuthentication(authentication);
 
-            // 3️⃣ 토큰에서 사용자 정보를 가져와 request 객체에 저장
+            // ✅ 4️⃣ 토큰에서 사용자 정보를 가져와 request 객체에 저장
             Member member = tokenProvider.getTokenDetails(token);
             request.setAttribute("member", member);
         }
-        // 4️⃣ 토큰이 만료된 경우, HTTP 상태 코드 401 (Unauthorized) 반환
-        else if (token != null && tokenProvider.validToken(token) == 2) {
-            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-            return; // 요청을 더 이상 진행하지 않음
+        else if (tokenValidation == 2) { // 만료된 토큰
+            log.warn("JWT 토큰 만료됨");
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Expired JWT token");
+            return;
+        }
+        else { // 유효하지 않은 토큰
+            log.error("JWT 검증 실패");
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid JWT token");
+            return;
         }
 
-        // 5️⃣ 다음 필터로 요청을 전달
+        // ✅ 5️⃣ 다음 필터로 요청을 전달
         filterChain.doFilter(request, response);
     }
 
@@ -90,7 +98,6 @@ public class TokenAuthenticationFilter extends OncePerRequestFilter {
     private String resolveToken(HttpServletRequest request) {
         String bearerToken = request.getHeader(HEADER_AUTHORIZATION);
 
-        // 헤더가 존재하고, "Bearer "로 시작하면 토큰 값만 반환
         if (bearerToken != null && bearerToken.startsWith(TOKEN_PREFIX)) {
             return bearerToken.substring(TOKEN_PREFIX.length()); // "Bearer " 이후의 값만 추출
         }

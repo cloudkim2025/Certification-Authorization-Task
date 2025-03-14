@@ -19,11 +19,11 @@ let loadBoardDetail = () => {
         type: 'GET',
         url: '/api/board/' + hId,
         success: (response) => {
-            console.log('loadBoard detail : ', response);
+
             $('#title').text(response.title);
             $('#content').text(response.content);
-            $('#userId').text(response.userId);
-            $('#created').text(response.created);
+            $('#userId').text(response.nickname || response.userName || response.userId);
+            $('#created').text(response.created.replace('T', ' '));
 
             if (hUserId !== response.userId) {
                 $('#editBtn').prop('disabled', true);

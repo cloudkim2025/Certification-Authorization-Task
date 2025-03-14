@@ -71,7 +71,7 @@ let loadBoard = (page, size) => {
                             <tr>
                                 <td>${article.id}</td>
                                 <td><a href="/detail?id=${article.id}">${article.title}</a></td>
-                                <td>${article.userId}</td>
+                                <td>${article.nickname || article.userId}</td>
                                 <td>${article.created.replace('T', ' ')}</td>
                             </tr>
                     `

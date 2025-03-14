@@ -29,7 +29,7 @@ public class BoardService {
     }
 
     @Transactional
-    public void saveArticle(String userId, String title, String content, MultipartFile file) {
+    public void saveArticle(String userId,String nickname, String title, String content, MultipartFile file) {
         String path = null;
         if (!file.isEmpty()) {
             path = fileService.fileUpLoad(file);
@@ -40,6 +40,7 @@ public class BoardService {
                         .title(title)
                         .content(content)
                         .userId(userId)
+                        .nickname(nickname)
                         .filePath(path)
                         .build()
         );

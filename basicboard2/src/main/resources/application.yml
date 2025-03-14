@@ -18,3 +18,10 @@ mybatis:
 jwt:
   issuer: test@gmail.com
   secret_key: 55DQ7XtZjKEuftetbQMtw0geU9SS1rR/fbrPOAqIQ2UUPJ+crjXRoLppDtreyvim53v3U6+hTLcbunHlxlNGlA==
+
+naver:
+  client:
+    id: lVUWzJTwBPC2k8rhPb3h
+    secret: u8sBpTRpJC
+  redirect:
+    uri: http://localhost:8081/api/social/login/callback

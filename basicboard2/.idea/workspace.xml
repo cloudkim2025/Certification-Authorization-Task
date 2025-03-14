@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5bb90cc-bb6f-4896-a6e1-6dee48594262" name="Changes" comment="" />
+    <list default="true" id="a5bb90cc-bb6f-4896-a6e1-6dee48594262" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/config/Bean/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/controller/SocialLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/dto/NaverUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/dto/SocialLoginRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/dto/SocialLoginResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/service/NaverAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/service/SocialLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/type/SocialLoginType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/naverCallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/naver-callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/79a8bd40-2e78-4f62-8756-62418730438f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/79a8bd40-2e78-4f62-8756-62418730438f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/config/filter/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/config/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/config/jwt/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/config/jwt/TokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/controller/BoardApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/controller/BoardApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/dto/BoardDetailResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/dto/BoardDetailResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/basicboard2/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ArticleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/boardDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/boardDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/boardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/boardList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/boardWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/boardWrite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/signIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/signIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board-write.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/board-write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sign-in.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,21 +48,45 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2uFIm6moirzy4BJpINJGqlaFml9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build basicboard2.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Basicboard2Application.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/hi-pc-999/Desktop/java2/Task/CookieBoard/basicboard2",
@@ -46,6 +103,12 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hi-pc-999\Desktop\Task\basicboard2\src\main\resources\static\js" />
+      <recent name="C:\Users\hi-pc-999\Desktop\Task\basicboard2\src\main\resources\static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Basicboard2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="basicboard2.main" />
@@ -72,7 +135,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741838054614</updated>
       <workItem from="1741838055650" duration="1423000" />
-      <workItem from="1741841852976" duration="1526000" />
+      <workItem from="1741841852976" duration="5558000" />
+      <workItem from="1741909533561" duration="27165000" />
     </task>
     <servers />
   </component>

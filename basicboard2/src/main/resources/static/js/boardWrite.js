@@ -8,8 +8,9 @@ $(document).ready(() => {
     getUserInfo().then((userInfo) => {
         console.log('user info :: ', userInfo);
         $('#hiddenUserName').val(userInfo.userName); // 숨겨진 입력 필드에 사용자 이름 저장
-        $('#hiddenUserId').val(userInfo.userId); // 숨겨진 입력 필드에 사용자 ID 저장
-        $('#userId').val(userInfo.userId); // 사용자 ID 입력 필드에 자동 입력
+        $('#hiddenUserId').val(userInfo.userId);
+        $('#hiddenNickname').val(userInfo.userName);
+        $('#userId').val(userInfo.userName);
     }).catch((error) => {
         console.error('Error get user info : ', error);
     });

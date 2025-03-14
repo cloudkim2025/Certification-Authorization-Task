@@ -13,7 +13,8 @@
         <result property="id" column="id"/> <!-- 게시글 ID -->
         <result property="title" column="title"/> <!-- 게시글 제목 -->
         <result property="content" column="content"/> <!-- 게시글 내용 -->
-        <result property="userId" column="user_id"/> <!-- 작성자 ID -->
+        <result property="userId" column="user_id"/><!-- 작성자 ID -->
+        <result property="nickname" column="nickname"/>
         <result property="filePath" column="file_path"/> <!-- 첨부 파일 경로 -->
         <result property="created" column="created"/> <!-- 생성일 -->
         <result property="updated" column="updated"/> <!-- 수정일 -->
@@ -24,11 +25,10 @@
         - 새로운 게시글을 `article` 테이블에 삽입
     -->
     <insert id="saveArticle" parameterType="Article">
-        INSERT INTO
-            article(user_id, title, content, file_path)
-        VALUES
-            (#{userId}, #{title}, #{content}, #{filePath});
+        INSERT INTO article(user_id, nickname, title, content, file_path)
+        VALUES (#{userId}, #{nickname}, #{title}, #{content}, #{filePath});
     </insert>
+
 
     <!--
         ✅ 게시글 목록 조회 SQL (페이징 처리)
@@ -40,7 +40,7 @@
             parameterType="Paging"
             resultMap="articleResultMap">
         SELECT
-            id, title, content, user_id, file_path, created, updated
+            id, title, content, user_id, nickname, file_path, created, updated
         FROM
             article
         ORDER BY id DESC
@@ -60,7 +60,7 @@
             resultMap="articleResultMap"
     >
         SELECT
-            id, title, content, user_id, file_path, created, updated
+            id, title, content, user_id, nickname, file_path, created, updated
         FROM
             article
         WHERE

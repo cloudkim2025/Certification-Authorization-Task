@@ -75,9 +75,10 @@ public class BoardApiController {
             @RequestParam("title") String title,
             @RequestParam("content") String content,
             @RequestParam("hiddenUserId") String userId,
+            @RequestParam("hiddenNickname") String nickname,  // 추가
             @RequestParam("file") MultipartFile file
     ) {
-        boardService.saveArticle(userId, title, content, file);
+        boardService.saveArticle(userId, nickname, title, content, file);
     }
 
     @PutMapping

@@ -37,5 +37,9 @@ $(document).ready(() => {
         });
 
     });
+    $('#naver-login-button').click(() => {
+        // 네이버 로그인 시작을 위한 백엔드 엔드포인트로 리다이렉트
+        window.location.href = '/api/social/naver';
+    });
 
 });

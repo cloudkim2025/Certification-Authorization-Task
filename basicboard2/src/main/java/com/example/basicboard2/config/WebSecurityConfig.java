@@ -45,7 +45,8 @@ public class WebSecurityConfig {
                 .requestMatchers(
                         "/static/**",
                         "/css/**",
-                        "/js/**"
+                        "/js/**",
+                        "/naver-callback.html"
                 ); // 정적 리소스 요청은 필터링 제외
     }
 
@@ -77,7 +78,9 @@ public class WebSecurityConfig {
                                         new AntPathRequestMatcher("/login", POST.name()), // 로그인 요청
                                         new AntPathRequestMatcher("/logout", POST.name()), // 로그아웃 요청
                                         new AntPathRequestMatcher("/logout", POST.name()),
-                                        new AntPathRequestMatcher("/api/board/file/download/*", GET.name())
+                                        new AntPathRequestMatcher("/api/board/file/download/*", GET.name()),
+                                        new AntPathRequestMatcher("/naver-callback.html", GET.name()),
+                                        new AntPathRequestMatcher("/api/social/**")
                                 ).permitAll() // 위의 경로들은 인증 없이 접근 가능
                                 .anyRequest().authenticated() // 그 외 모든 요청은 인증 필요
                 )
